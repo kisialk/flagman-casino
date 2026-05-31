@@ -1,6 +1,6 @@
 :root {
   --bg: #0f1115;
-  --header-footer: #171a21;
+  --header-footer: #1f2937;
   --block: #1d2230;
   --card: #222838;
   --border: #2c3345;
@@ -273,6 +273,90 @@ p {
 .copyright {
   color: var(--muted);
   font-size: 0.93rem;
+}
+
+.footer-trust {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 14px 0 8px;
+  align-items: center;
+}
+
+.footer-trust a {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.footer-trust a:hover {
+  color: var(--accent-soft);
+}
+
+.badge-18 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+.footer-updated {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin: 0 0 8px;
+}
+
+.page-toc {
+  margin-top: 20px;
+  background: var(--block);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 22px;
+}
+
+.page-toc .toc-title {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+}
+
+.page-toc ol {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.page-toc a {
+  color: var(--text);
+}
+
+.page-toc a:hover {
+  color: var(--accent-soft);
+}
+
+.cta-mid {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.practice-block {
+  border-color: rgba(255, 209, 102, 0.35);
+}
+
+.banner-link img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 13 / 8;
+  object-fit: cover;
+}
+
+.header-inner {
+  position: relative;
 }
 
 @media (max-width: 980px) {
